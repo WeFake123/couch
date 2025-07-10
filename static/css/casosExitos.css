@@ -1,0 +1,76 @@
+.casos_particular{
+    align-items: center;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    display: flex;
+    margin-bottom: 100px;
+    /* border: 50px; */
+    width: 100%;
+    margin-bottom: 40px;
+    /* text-align: center; */
+    align-items: center;
+}
+
+.todosLosCasos{
+    padding-top: 150px;
+}
+
+.tituloExito{
+    /* margin-bottom: 50px; */
+    margin-bottom: 50px;
+    font-family: "Tinos", serif;
+
+}
+
+.CasosExito{
+    /* margin-bottom: 500px; */
+    /* margin-top: 40px; */
+}
+
+.imagen_exito{
+    /* align-items: end; */
+    min-width: 300px;
+    width: 20%;
+    margin-right: 50px;
+    
+    margin-left: 50px;
+}
+.parrafoExito{
+    /* align-items: center; */
+    justify-content: center;
+     margin-left: 50px;
+     margin-right: 50px;
+}
+
+#colorDeFondo{
+    /* margin-top: 200px; */
+    background-color: var(--clr-grey-9);
+}
+
+@media (max-width:700px){
+
+    .casos_particular{
+        /* width: 100%; */
+        display: block;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .imagen_exito{
+        display: block;
+
+        margin: auto;
+        /* margin-left: 25%; 
+         margin-right: 25%; */
+        text-align: center;
+        align-items: center;
+    }
+
+    .parrafoExito{
+        /* align-items: center; */
+        /* margin-left: 5%; */
+        /* margin-right: 10%; */
+    }
+
+ }

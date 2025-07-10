@@ -1,0 +1,148 @@
+.image_fondo{
+    max-width: 100%;
+    display: flex
+;
+    flex-direction: column;
+    /* margin-top: 20%; */
+    align-items: center;
+    justify-content: center;
+    color: var(--clr-white);
+    text-shadow: 3px 3px 10px var(--clr-grey-3);
+    height: 700px;   
+    background-image: url(../img/imagen-fondo.jpg);
+    /* background-position-y: 70px; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body{
+    /* margin-bottom: 50px; */
+}
+
+#titulo1{
+    margin-top: -180px;
+    /* opacity: 0.5; */
+    background-color: hsl(212, 33%, 89%, 0.5);
+}
+
+.honk-letrainicio{
+    text-align: center;
+    font-size: 6em;
+    font-family: "Honk", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0,
+      "SHLN" 50;
+
+  }
+
+  .protest-revolution-regular {
+    font-family: "Protest Revolution", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6em;
+    text-align: center;
+  }
+  
+
+  .lacquer-regular {
+    font-family: "Lacquer", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .chela-one-regular {
+    font-family: "Chela One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .mr-dafoe-regular {
+    font-family: "Mr Dafoe", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
+  @media (max-width:500px){
+    .protest-revolution-regular{
+        font-size: 3em;
+    }
+
+    
+  }
+
+
+@media (max-width:700px){
+    .image_fondo{
+        background-position-y: 70px;
+    }
+    .titulos{
+        /* margin-top: -200em; */
+    }
+    #titulo1{
+        margin-top: -500px;
+        font-size: 0.60em;
+    }
+
+
+
+ }
+ @media (min-width:700px){
+    .image_fondo{
+        /* width: 100%; */
+        /* width: 500px; */
+        /* width: 20%; */
+        height: 500px;   
+    }
+    #titulo1{
+        /* margin-top: -180px; */
+        /* opacity: 0.5; */
+        background-color: hsl(212, 33%, 89%, 0.5);
+    }
+ }
+
+
+
+
+
+
+
+.titulos{
+    background-color: var(--clr-grey-9);
+    /* margin-top: 50px; */
+    
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#titulo{
+
+    display: flex
+    ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.parrafo{
+    align-items: center;
+    text-align: center;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+

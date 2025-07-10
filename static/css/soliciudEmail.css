@@ -1,0 +1,31 @@
+.solicitudEmail{
+    align-items: center;
+    text-align: center
+}
+
+.success{
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+.tituloEmail{
+    font-size: 2em;
+}
+
+.labelEmail{
+    font-size: 2em;
+}
+
+.formEmail{
+    margin: 20px
+}
+
+.btn{
+    margin: 20px;
+}
+
+.inputEmail{
+    background-color: hsl(210, 31%, 80%);
+    font-size: 1.5em;
+}
